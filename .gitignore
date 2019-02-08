@@ -1,6 +1,7 @@
 /scrape/raw-data
 /scrape/stations
 /scrape/weather
+/scrape/formatted-data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

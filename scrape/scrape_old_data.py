@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 from dateutil import tz
 import re
 import argparse
+from shutil import copyfile
 
 
 def scrape_ride_data():
@@ -17,8 +18,10 @@ def scrape_ride_data():
     Scrapes Citi Bike public S3 bucket and stores .csv files locally for final ingesting
     """
 
-    path = os.path.join(os.getcwd(), 'raw-data')
+    # path = os.path.join(os.getcwd(), 'raw-data')
+    path = os.path.join('D:\\', 'raw-data')
     zip_path = os.path.join(path, 'zip')
+    format_path = os.path.join(os.getcwd(), 'formatted-data')
     s3 = boto3.resource('s3', config=Config(signature_version=UNSIGNED))
     bucket = s3.Bucket('tripdata')
 
@@ -26,6 +29,8 @@ def scrape_ride_data():
         os.mkdir(path)
     if not os.path.exists(zip_path):
         os.mkdir(zip_path)
+    if not os.path.exists(format_path):
+        os.mkdir(format_path)
     os.chdir(zip_path)
 
     for file in bucket.objects.filter(Delimiter='/'):
@@ -41,6 +46,27 @@ def scrape_ride_data():
             print('Skipping: ' + file.key)
 
     os.chdir(os.path.join('..', '..'))
+
+    for file in os.listdir('./raw-data'):
+        inpath = './raw-data/' + file
+        outpath = './formatted-data/' + file
+        with open(inpath) as infile:
+            with open(outpath, 'w', newline='') as outfile:
+                print('Formatting: ' + file)
+                reader = csv.reader(infile, delimiter=',')
+                writer = csv.writer(outfile, delimiter=',')
+                writer.writerow(next(reader))
+                for row in reader:
+                    try:
+                        row[1] = str(datetime.strptime(row[1], '%m/%d/%Y %H:%M:%S'))
+                        row[2] = str(datetime.strptime(row[2], '%m/%d/%Y %H:%M:%S'))
+                        writer.writerow(row)
+                    except:
+                        print('Properly Formatted')
+                        copyfile(inpath, outpath)
+                        break
+
+    os.chdir(path)
     os.rmdir(zip_path)
     print('Finished')
 
