@@ -9,6 +9,7 @@ import csv
 from datetime import datetime, timedelta
 from dateutil import tz
 import re
+import argparse
 
 
 def scrape_ride_data():
@@ -28,7 +29,7 @@ def scrape_ride_data():
     os.chdir(zip_path)
 
     for file in bucket.objects.filter(Delimiter='/'):
-        if file.key[:6] in ['201308', '201309']:
+        if re.match(r'^\d{6}-[^0-9]', str(file.key)):
             print('Downloading: ' + file.key)
             bucket.download_file(file.key, file.key)
             print('Unzipping: ' + file.key)
@@ -36,6 +37,8 @@ def scrape_ride_data():
                 zip_ref.extractall(path)
             print('Cleaning Up: ' + file.key)
             os.remove(file.key)
+        else:
+            print('Skipping: ' + file.key)
 
     os.chdir(os.path.join('..', '..'))
     os.rmdir(zip_path)
@@ -55,7 +58,7 @@ def scrape_station_data():
         os.mkdir(path)
     os.chdir(path)
 
-    print('Downloading Station List')
+    print('Downloading Current Station List')
     with open('stations.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
         for s in json.loads(r.content)['data']['stations']:
@@ -64,13 +67,12 @@ def scrape_station_data():
     print('Finished')
 
 
-def scrape_weather(time=datetime(2013, 1, 1, 0, 0, 0, tzinfo=tz.gettz('America/New_York')), count=900):
+def scrape_weather(date=datetime(2013, 1, 1, 0, 0, 0, tzinfo=tz.gettz('America/New_York')), count=1, key=None):
     """
     Scrapes Weather From API
     """
 
     path = os.path.join(os.getcwd(), 'weather')
-    key = ''
     lat = '40.730610'
     lon = '-73.935242'
 
@@ -81,16 +83,22 @@ def scrape_weather(time=datetime(2013, 1, 1, 0, 0, 0, tzinfo=tz.gettz('America/N
     with open('weather.csv', 'a', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
         for day_count in range(count):
-            print(time.strftime("%Y-%m-%dT%H:%M:%S%z"))
+            print('Downloading: ' + date.strftime("%Y-%m-%dT%H:%M:%S%z"))
             url = 'https://api.darksky.net/forecast/{}/{},{},{}?exclude=currently,flags'.format(
-                key, lat, lon, time.strftime("%Y-%m-%dT%H:%M:%S%z"))
+                key, lat, lon, date.strftime("%Y-%m-%dT%H:%M:%S%z"))
             r = requests.get(url, 'json')
             for hour in scrape_day(json.loads(r.content)):
                 writer.writerow(hour)
-            time += timedelta(days=1)
+            date += timedelta(days=1)
     os.chdir('..')
+    print('Finished')
+
 
 def scrape_day(day):
+    """
+    Scrapes weather for one day and yield's information one hour at a time
+    """
+
     from_zone = tz.gettz('UTC')
     to_zone = tz.gettz('America/New_York')
     sunrise = day['daily']['data'][0]['sunriseTime']
@@ -114,4 +122,24 @@ def scrape_day(day):
         yield hourly
 
 
-# scrape_weather(time=datetime(2013, 1, 11, 0, 0, 0, tzinfo=tz.gettz('America/New_York')), count=900)
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Scrape Citi Bike and related data')
+    parser.add_argument('data', help='Data to download. One of: "ride", "station", "weather"')
+    parser.add_argument('-d', dest='date', help='Req Weather: Date to start scraping YYYY-MM-DD')
+    parser.add_argument('-c', dest='count', help='Req Weather: Number of consecutive days to scrape.')
+    parser.add_argument('-k', dest='key', help='Req Weather: API Key')
+
+    results = parser.parse_args()
+    if results.data == 'ride':
+        scrape_ride_data()
+    elif results.data == 'station':
+        scrape_station_data()
+    elif results.data == 'weather':
+        if results.date is None or results.count is None or results.key is None:
+            raise ValueError('Must include date, count and key to scrape weather')
+        date = datetime.strptime(str(results.date), '%Y-%m-%d').replace(tzinfo=tz.gettz('America/New_York'))
+        count = results.count
+        key = results.key
+        scrape_weather(date=date, count=count, key=key)
+    else:
+        raise ValueError('Must be "ride", "station" or "weather"')
