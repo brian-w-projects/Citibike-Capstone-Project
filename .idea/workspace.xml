@@ -11,29 +11,27 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_stations_into_mysql.coverage" NAME="load_stations_into_mysql Coverage Results" MODIFIED="1549568383472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
+    <SUITE FILE_PATH="coverage/citibike_dashboard$citibike_dashboard.coverage" NAME="citibike-dashboard Coverage Results" MODIFIED="1549580775501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_into_mysql.coverage" NAME="load_into_mysql Coverage Results" MODIFIED="1549567659389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
-    <SUITE FILE_PATH="coverage/citibike_dashboard$scrape_old_data.coverage" NAME="scrape_old_data Coverage Results" MODIFIED="1549560833609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_rides_into_mysql.coverage" NAME="load_rides_into_mysql Coverage Results" MODIFIED="1549572161824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
+    <SUITE FILE_PATH="coverage/citibike_dashboard$scrape_old_data.coverage" NAME="scrape_old_data Coverage Results" MODIFIED="1549585596481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="scrape_old_data.py" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="scrape_old_data.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="load_into_mysql.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="load_into_mysql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrape/load_into_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -47,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -57,9 +56,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/scrape/load_into_mysql.py" />
-        <option value="$PROJECT_DIR$/scrape/scrape_old_data.py" />
         <option value="$PROJECT_DIR$/scrape/load_stations_into_mysql.py" />
         <option value="$PROJECT_DIR$/scrape/load_rides_into_mysql.py" />
+        <option value="$PROJECT_DIR$/scrape/fiddle.ipynb" />
+        <option value="$PROJECT_DIR$/scrape/scrape_old_data.py" />
       </list>
     </option>
   </component>
@@ -73,8 +73,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2573" />
-    <option name="y" value="-37" />
+    <option name="x" value="-2574" />
+    <option name="y" value="-38" />
     <option name="width" value="2580" />
     <option name="height" value="1410" />
   </component>
@@ -121,7 +121,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.load_rides_into_mysql">
+  <component name="RunManager" selected="Python.scrape_old_data">
+    <configuration name="citibike-dashboard" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="citibike-dashboard" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+    </configuration>
     <configuration name="load_into_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="citibike-dashboard" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,13 +220,14 @@
       <item itemvalue="Python.load_into_mysql" />
       <item itemvalue="Python.load_stations_into_mysql" />
       <item itemvalue="Python.load_rides_into_mysql" />
+      <item itemvalue="Jupyter Notebook.citibike-dashboard" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scrape_old_data" />
         <item itemvalue="Python.load_rides_into_mysql" />
         <item itemvalue="Python.load_stations_into_mysql" />
         <item itemvalue="Python.load_into_mysql" />
-        <item itemvalue="Python.scrape_old_data" />
       </list>
     </recent_temporary>
   </component>
@@ -237,28 +255,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2567" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3299075" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3299075" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.3299075" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3299075" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.3299075" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24975026" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25224775" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,31 +289,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
+        <state relative-caret-position="493">
           <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrape/load_stations_into_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrape/load_into_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="272">
           <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/load_stations_into_mysql.py" />
+    <entry file="file://$PROJECT_DIR$/scrape/load_into_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/fiddle.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
