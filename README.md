@@ -13,4 +13,10 @@ Ultimately, I created a ~40k line csv file containing information on every hour 
 
 Challenges included cleaning the data (data was missing or inconsistently formatted), ingesting it into GCP in a timely fashion and combining the ride data with the wather data.
 
-### Step 2 - Machine Learning
+### Step 2 - EDA
+
+Using jupyter notebook to run both Python and R, I began to explore the predictors I had collected in the previous step. My visualization tool of choice for creating presentation ready plots is ggplot. Initially however, I will plot in seaborn and matplotlib for initial exploration. Following this exploration, I create more robust visualizations with ggplot. 
+
+These visualizations may find their way into my final report, but also serve to aid me in the next steps of the project. The notes before each plot also help for me to summarize my thoughts and findings, although they are hardly exhaustive.
+
+### Step 3 - Machine Learning
