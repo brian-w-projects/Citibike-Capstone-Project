@@ -11,18 +11,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_stations_into_mysql.coverage" NAME="load_stations_into_mysql Coverage Results" MODIFIED="1549568383472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
-    <SUITE FILE_PATH="coverage/citibike_dashboard$citibike_dashboard.coverage" NAME="citibike-dashboard Coverage Results" MODIFIED="1549861173189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/citibike_dashboard$citibike_dashboard.coverage" NAME="citibike-dashboard Coverage Results" MODIFIED="1550102044896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_into_mysql.coverage" NAME="load_into_mysql Coverage Results" MODIFIED="1549567659389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_rides_into_mysql.coverage" NAME="load_rides_into_mysql Coverage Results" MODIFIED="1549572161824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$scrape_old_data.coverage" NAME="scrape_old_data Coverage Results" MODIFIED="1549655523338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scrape_old_data.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scrape_old_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="391">
+              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fiddle.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrape/fiddle.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="2" />
+      <file leaf-file-name="aggregation_queries.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrape/aggregation_queries.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -92,16 +92,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2570" />
-    <option name="width" value="1755" />
-    <option name="height" value="1400" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1288" />
+    <option name="width" value="1297" />
+    <option name="height" value="1398" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,13 +113,22 @@
             <path>
               <item name="citibike-dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="citibike-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="eda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citibike-dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citibike-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="ml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="citibike-dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="citibike-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="scrape" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,6 +137,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Brian\Desktop\GradClasses\Spring19\698\citibike-dashboard\ml" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,17 +288,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2567" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1542" y="0" width="1037" height="1118" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3299075" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.3299075" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.331963" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3299075" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.123876125" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.33471504" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32953367" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2620266" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -306,6 +320,114 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/load_into_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/aggregation_queries.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/fiddle.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/load_into_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/fiddle.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/load_into_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/fiddle.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/load_into_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -555,10 +677,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrape/aggregation_queries.sql">
+    <entry file="file://$PROJECT_DIR$/eda/eda_fiddle.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/historic_data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state relative-caret-position="391">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -569,13 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
+    <entry file="file://$PROJECT_DIR$/scrape/aggregation_queries.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
         </state>
       </provider>
     </entry>
