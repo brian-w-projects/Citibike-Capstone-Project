@@ -20,3 +20,13 @@ Using jupyter notebook to run both Python and R, I began to explore the predicto
 These visualizations may find their way into my final report, but also serve to aid me in the next steps of the project. The notes before each plot also help for me to summarize my thoughts and findings, although they are hardly exhaustive.
 
 ### Step 3 - Machine Learning
+
+I created a variety of ML models, ultimately narrowing the work down to the strongest model of each type. The XGBoost model was able to create highly accurate results that are certainly usable. However, I want to do some additional exploration with neural networks to see if they can provide further predictive ability.
+
+
+
+
+
+
+
+
