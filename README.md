@@ -23,7 +23,17 @@ These visualizations may find their way into my final report, but also serve to 
 
 I created a variety of ML models, ultimately narrowing the work down to the strongest model of each type. The XGBoost model was able to create highly accurate results that are certainly usable. However, I want to do some additional exploration with neural networks to see if they can provide further predictive ability.
 
+### Step 4 - Deep Learning
 
+After iterating through a number of models, I settled on a predictive model that utilizes a GRU series to analyze the previous weeks actual values and then combines it with a dense network representing the given hours meta information to make a prediction. This model ends up being only slightly better than the XGBoost model.
+
+### Step 5 - Ensemble Model
+
+As a final step in the creation of my model, I tested an ensemble that works by averaging the predictions of the XGBoost model and the nueral net. The results are incredibly promising as there is a roughly 25% improvement in predictions using the ensemble than either model individually. 
+
+I created a variety of plots to demonstrate the predictions on the validation data.
+
+### Step 6 - Test Data Set
 
 
 
