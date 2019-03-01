@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/citibike_dashboard$ingest_to_pubsub__1_.coverage" NAME="ingest_to_pubsub (1) Coverage Results" MODIFIED="1551303084866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcp/ingest" />
+    <SUITE FILE_PATH="coverage/citibike_dashboard$ingest_to_pubsub__1_.coverage" NAME="ingest_to_pubsub (1) Coverage Results" MODIFIED="1551466979266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcp/ingest" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_stations_into_mysql.coverage" NAME="load_stations_into_mysql Coverage Results" MODIFIED="1549568383472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$citibike_dashboard.coverage" NAME="citibike-dashboard Coverage Results" MODIFIED="1550939479500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$read_test.coverage" NAME="read_test Coverage Results" MODIFIED="1551305947539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcp/ingest" />
@@ -26,7 +26,7 @@
       <file leaf-file-name="scrape_old_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
+            <state relative-caret-position="663">
               <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="read_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gcp/ingest/read_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="289">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -47,20 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ingestapp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gcp/ingest/ingestapp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="340">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -68,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ingest_to_pubsub.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ingest_to_pubsub.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gcp/ingest/ingest_to_pubsub.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="803">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -83,8 +74,8 @@
       <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gcp/ingest/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="136">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -122,7 +113,7 @@
       <file leaf-file-name="load_into_mysql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrape/load_into_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
+            <state relative-caret-position="918">
               <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -168,11 +159,11 @@
         <option value="$PROJECT_DIR$/gcp/ingest/app.py" />
         <option value="$PROJECT_DIR$/gcp/app.yaml" />
         <option value="$PROJECT_DIR$/ml/dl_fiddle.ipynb" />
-        <option value="$PROJECT_DIR$/gcp/ingest/app.yaml" />
-        <option value="$PROJECT_DIR$/gcp/ingest/ingest_to_pubsub.py" />
         <option value="$PROJECT_DIR$/gcp/ingest/ingestapp.py" />
         <option value="$PROJECT_DIR$/gcp/ingest/cron.yaml" />
         <option value="$PROJECT_DIR$/gcp/ingest/read_test.py" />
+        <option value="$PROJECT_DIR$/gcp/ingest/app.yaml" />
+        <option value="$PROJECT_DIR$/gcp/ingest/ingest_to_pubsub.py" />
       </list>
     </option>
   </component>
@@ -186,8 +177,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2533" />
-    <option name="y" value="-9" />
+    <option name="x" value="-2535" />
+    <option name="y" value="-10" />
     <option name="width" value="2580" />
     <option name="height" value="1410" />
   </component>
@@ -196,6 +187,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,7 +210,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,8 +366,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.read_test" />
         <item itemvalue="Python.ingest_to_pubsub (1)" />
+        <item itemvalue="Python.read_test" />
         <item itemvalue="Python.ingest_to_pubsub" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.predict" />
@@ -414,8 +405,8 @@
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.3299075" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.3340185" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32682425" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14185815" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32682425" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14635365" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -748,16 +739,8 @@
     <entry file="file://$PROJECT_DIR$/scrape/weather/weather.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gcp/ingest/raw-data/201801-citibike-tripdata.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state>
-          <caret column="219" selection-start-column="213" selection-end-column="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gcp/ingest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gcp/ingest/raw-data/201801-citibike-tripdata.csv" />
+    <entry file="file://$PROJECT_DIR$/gcp/ingest/__init__.py" />
     <entry file="file://$PROJECT_DIR$/gcp/ingest/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -777,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
+        <state relative-caret-position="663">
           <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -787,18 +770,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrape/load_into_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
+        <state relative-caret-position="918">
           <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gcp/ingest/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -809,29 +785,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gcp/ingest/ingestapp.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gcp/ingest/ingest_to_pubsub.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gcp/ingest/read_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="289">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -839,10 +802,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/gcp/ingest/ingestapp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="340">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gcp/ingest/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gcp/ingest/ingest_to_pubsub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

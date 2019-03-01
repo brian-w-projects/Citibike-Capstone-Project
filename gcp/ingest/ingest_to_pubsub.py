@@ -28,19 +28,11 @@ def stream_data(working_time=datetime(2018, 1, 2, 8, 10, 0)):
         )
     )
 
-    # db = sqlalchemy.create_engine(
-    #     sqlalchemy.engine.url.URL(
-    #         drivername='mysql+pymysql',
-    #         username='root',
-    #         password='cosmic joke',
-    #         database='citibike'
-    #     )
-    # )
-
     with db.connect() as conn:
         value = conn.execute("SELECT * FROM data WHERE starttime BETWEEN '{}' AND '{}'".format(working_time - timedelta(minutes=5), working_time)).fetchall()
         for val in value:
             send = ','.join(map(str, list(val))).encode('utf-8')
+            print(send)
             publisher.publish(topic_name, send)
 
 
@@ -98,3 +90,4 @@ def scrape_day(day):
         hourly.append(str(ele['humidity']))
         hourly.append(str(ele['windSpeed']))
         yield hourly
+

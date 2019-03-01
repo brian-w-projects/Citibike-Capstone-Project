@@ -2,6 +2,8 @@
 /scrape/stations
 /scrape/weather
 /scrape/formatted-data
+/.idea
+/gcp/beam/.idea
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

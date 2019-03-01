@@ -43,9 +43,9 @@ I will be using Google Cloud Platform to simulate the streaming Citi Bike data. 
 
 #### Step 2 - Dataflow with Apache Beam
 
-Next, I will write a Java program using Apach Beam to ingest and process the Pub/Sub data and perform ETL to prepare it for use in the dashboard. TDC.
+I created an Apache Beam pipeline to run on GCP Dataflow to ingest the simulated streaming data. This pipeline serves three purposes. It ingests future weather data and hourly grouped rides data and stores it in a MySQL database and stores every unique ride in a BigQuery database. The MySQL database will serve as the backend for the dashboard.
 
-
+#### Step 3 - Dashboard 
 
 
 
