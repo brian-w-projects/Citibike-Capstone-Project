@@ -106,7 +106,7 @@ def scrape_weather(date=datetime(2013, 1, 1, 0, 0, 0, tzinfo=tz.gettz('America/N
         os.mkdir(path)
     os.chdir(path)
 
-    with open('weather.csv', 'a', newline='') as csvfile:
+    with open('weather_new.csv', 'a', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
         for day_count in range(count):
             print('Downloading: ' + date.strftime("%Y-%m-%dT%H:%M:%S%z"))
@@ -141,10 +141,10 @@ def scrape_day(day):
         else:
             hourly.append(0)
         hourly.append(re.sub('(-night)|(-day)', '', ele['icon'].lower()))
-        hourly.append(ele['precipProbability'])
-        hourly.append(ele['apparentTemperature'])
-        hourly.append(ele['humidity'])
-        hourly.append(ele['windSpeed'])
+        hourly.append(ele.get('precipProbability', 0))
+        hourly.append(ele.get('apparentTemperature', 0))
+        hourly.append(ele.get('humidity', 0))
+        hourly.append(ele.get('windSpeed', 0))
         yield hourly
 
 
@@ -164,7 +164,7 @@ if __name__ == '__main__':
         if results.date is None or results.count is None or results.key is None:
             raise ValueError('Must include date, count and key to scrape weather')
         date = datetime.strptime(str(results.date), '%Y-%m-%d').replace(tzinfo=tz.gettz('America/New_York'))
-        count = results.count
+        count = int(results.count)
         key = results.key
         scrape_weather(date=date, count=count, key=key)
     else:

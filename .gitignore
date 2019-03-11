@@ -2,8 +2,14 @@
 /scrape/stations
 /scrape/weather
 /scrape/formatted-data
-/.idea
-/gcp/beam/.idea
+
+
+
+.idea
+
+
+# Images for Project
+*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
