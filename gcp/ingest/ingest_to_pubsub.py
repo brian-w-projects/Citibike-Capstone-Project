@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 from dateutil import tz
 from google.cloud import pubsub_v1
 import sqlalchemy
+import re
 
 
 def stream_data(working_time=datetime(2018, 1, 2, 8, 10, 0)):
@@ -85,6 +86,7 @@ def scrape_day(day):
             hourly.append('1')
         else:
             hourly.append('0')
+        hourly.append(re.sub('(-night)|(-day)', '', ele['icon'].lower()))
         hourly.append(str(ele['precipProbability']))
         hourly.append(str(ele['apparentTemperature']))
         hourly.append(str(ele['humidity']))

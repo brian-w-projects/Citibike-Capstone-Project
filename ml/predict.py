@@ -6,11 +6,29 @@ from math import pi
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.externals import joblib
 from sklearn.metrics import mean_squared_error
-from pandas import DataFrame
 import argparse
+import holidays
+from datetime import timedelta
 pd.options.mode.chained_assignment = None
 
 
+class HolidaySelector(BaseEstimator, TransformerMixin):
+    
+    def __init__(self):
+        hd = [date for date, name in holidays.US(years=[2013, 2014, 2015, 2016, 2017, 2018]).items()
+                        if name.startswith(("New Year's Day", "Washington's Birthday", "Memorial Day",
+                                            "Independence Date", "Labor Day", "Thanksgiving", "Christmas Day"))]
+        hd_eve = [day - timedelta(days=1) for day in hd]
+        hd.extend(hd_eve)
+        self.h = [str(date) for date in hd]
+    
+    def fit(self, X, y=None):
+        return self
+    
+    def transform(self, X, y=None):
+        return X[['date']].applymap(lambda x: int(pd.to_datetime(x).strftime('%Y-%m-%d') in self.h))
+
+    
 class ColumnSelector(BaseEstimator, TransformerMixin):
 
     def __init__(self, columns=None):
@@ -23,13 +41,16 @@ class ColumnSelector(BaseEstimator, TransformerMixin):
         return X.loc[:, self.columns]
 
 
-class YearExtractor(BaseEstimator, TransformerMixin):
+class DateTimeExtractor(BaseEstimator, TransformerMixin):
+
+    def __init__(self, extract):
+        self.extract = extract
 
     def fit(self, X, y=None):
         return self
 
     def transform(self, X, y=None):
-        return X.applymap(lambda x: float(pd.to_datetime(x).year))
+        return X[['date']].applymap(lambda x: float(getattr(pd.to_datetime(x), self.extract)))
 
 
 class CosExtractor(BaseEstimator, TransformerMixin):
@@ -52,6 +73,18 @@ class SinExtractor(BaseEstimator, TransformerMixin):
         return X.apply(lambda x: np.round(np.sin(x * pi * 2 / self.unique), 5), axis=1)
 
 
+class LagTransformer(BaseEstimator, TransformerMixin):
+
+    def __init__(self, amount):
+        self.amount = amount
+
+    def fit(self, X, y=None):
+        return self
+
+    def transform(self, X, y=None):
+        return X[['rides']].shift(self.amount, fill_value=0)
+
+
 def predict(data):
     # constants
     ONE_DAY = 24
@@ -63,11 +96,6 @@ def predict(data):
     all_pipeline = joblib.load(os.path.join('.', 'model', 'all_pipeline.pkl'))
     time_pipeline = joblib.load(os.path.join('.', 'model', 'time_pipeline.pkl'))
     model = load_model(os.path.join('.', 'model', 'dl.h5'))
-
-    # modify
-    data['actual'] = data['rides']
-    data['lag7'] = data['rides'].shift(7*24)
-    data['lag1'] = data['rides'].shift(2*24)
 
     xg_predictions = xg.predict(data[lookback+lag:])
 

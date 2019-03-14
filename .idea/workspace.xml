@@ -11,23 +11,36 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/citibike_dashboard$ingest_to_pubsub__1_.coverage" NAME="ingest_to_pubsub (1) Coverage Results" MODIFIED="1551466979266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcp/ingest" />
+    <SUITE FILE_PATH="coverage/citibike_dashboard$retrain.coverage" NAME="retrain Coverage Results" MODIFIED="1552506652718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_stations_into_mysql.coverage" NAME="load_stations_into_mysql Coverage Results" MODIFIED="1549568383472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$read_test.coverage" NAME="read_test Coverage Results" MODIFIED="1551305947539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcp/ingest" />
-    <SUITE FILE_PATH="coverage/citibike_dashboard$citibike_dashboard.coverage" NAME="citibike-dashboard Coverage Results" MODIFIED="1552336509201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/citibike_dashboard$citibike_dashboard.coverage" NAME="citibike-dashboard Coverage Results" MODIFIED="1552491872889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_into_mysql.coverage" NAME="load_into_mysql Coverage Results" MODIFIED="1549567659389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$ingest_to_pubsub.coverage" NAME="ingest_to_pubsub Coverage Results" MODIFIED="1551285764715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcp" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_rides_into_mysql.coverage" NAME="load_rides_into_mysql Coverage Results" MODIFIED="1549572161824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$scrape_old_data.coverage" NAME="scrape_old_data Coverage Results" MODIFIED="1552319485400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$app.coverage" NAME="app Coverage Results" MODIFIED="1550864149311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcp/ingest" />
-    <SUITE FILE_PATH="coverage/citibike_dashboard$predict.coverage" NAME="predict Coverage Results" MODIFIED="1552342559573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
+    <SUITE FILE_PATH="coverage/citibike_dashboard$predict.coverage" NAME="predict Coverage Results" MODIFIED="1552537209023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="predict.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="predict.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ml/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="100" column="76" selection-start-line="100" selection-start-column="76" selection-end-line="100" selection-end-column="76" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="28" selection-end-column="100" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="retrain.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ml/retrain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="180" column="45" lean-forward="true" selection-start-line="180" selection-start-column="45" selection-end-line="180" selection-end-column="45" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -72,15 +85,16 @@
         <option value="$PROJECT_DIR$/gcp/ingest/cron.yaml" />
         <option value="$PROJECT_DIR$/gcp/ingest/read_test.py" />
         <option value="$PROJECT_DIR$/gcp/ingest/app.yaml" />
-        <option value="$PROJECT_DIR$/gcp/ingest/ingest_to_pubsub.py" />
-        <option value="$PROJECT_DIR$/ml/ml_fiddle.ipynb" />
         <option value="$PROJECT_DIR$/ml/dl_fiddle-Copy2.ipynb" />
         <option value="$PROJECT_DIR$/ml/dl_fiddle.ipynb" />
         <option value="$PROJECT_DIR$/ml/dl_fiddle-Copy3.ipynb" />
         <option value="$PROJECT_DIR$/ml/bestworking.ipynb" />
         <option value="$PROJECT_DIR$/scrape/weather/weather_new.csv" />
         <option value="$PROJECT_DIR$/scrape/scrape_old_data.py" />
+        <option value="$PROJECT_DIR$/ml/ml_fiddle.ipynb" />
+        <option value="$PROJECT_DIR$/gcp/ingest/ingest_to_pubsub.py" />
         <option value="$PROJECT_DIR$/ml/predict.py" />
+        <option value="$PROJECT_DIR$/ml/retrain.py" />
       </list>
     </option>
   </component>
@@ -94,16 +108,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="-9" />
-    <option name="width" value="2580" />
-    <option name="height" value="1410" />
+    <option name="x" value="-2088" />
+    <option name="y" value="-19" />
+    <option name="width" value="1300" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +135,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,25 +205,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ingest_to_pubsub" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="citibike-dashboard" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gcp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gcp/ingest_to_pubsub.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="citibike-dashboard" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,6 +243,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="retrain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="citibike-dashboard" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml/retrain.py" />
+      <option name="PARAMETERS" value="-f actuals.csv" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="scrape_old_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="citibike-dashboard" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,19 +283,19 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.citibike-dashboard" />
-      <item itemvalue="Python.ingest_to_pubsub" />
       <item itemvalue="Python.read_test" />
       <item itemvalue="Python.ingest_to_pubsub (1)" />
       <item itemvalue="Python.scrape_old_data" />
       <item itemvalue="Python.predict" />
+      <item itemvalue="Python.retrain" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.predict" />
+        <item itemvalue="Python.retrain" />
         <item itemvalue="Python.scrape_old_data" />
         <item itemvalue="Python.ingest_to_pubsub (1)" />
         <item itemvalue="Python.read_test" />
-        <item itemvalue="Python.ingest_to_pubsub" />
       </list>
     </recent_temporary>
   </component>
@@ -308,17 +322,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
+    <frame x="-2567" y="-7" width="2062" height="1126" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3299075" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3299075" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.3299075" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3823227" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.35149023" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32682425" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16583416" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12987013" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -341,13 +354,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrape/fiddle.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrape/load_into_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -524,9 +530,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ml/historic_data.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/historic_data.csv" />
     <entry file="file://$PROJECT_DIR$/ml/ensemble_fiddle.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -570,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gcp/ingest/ingest_to_pubsub.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gcp/ingest/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -605,34 +602,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ml/ml_fiddle.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/dl_fiddle-Copy2.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/dl_fiddle-Copy3.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ml/bestworking.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/dl_fiddle-Copy2.ipynb" />
+    <entry file="file://$PROJECT_DIR$/ml/dl_fiddle-Copy3.ipynb" />
+    <entry file="file://$PROJECT_DIR$/ml/bestworking.ipynb" />
     <entry file="file://$PROJECT_DIR$/scrape/weather/weather_new.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -643,24 +615,42 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ml/dl_fiddle.ipynb">
+    <entry file="file://$PROJECT_DIR$/ml/dl_fiddle.ipynb" />
+    <entry file="file://$PROJECT_DIR$/ml/ml_fiddle.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="4" />
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gcp/ingest/ingest_to_pubsub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrape/scrape_old_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+        <state relative-caret-position="516">
+          <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ml/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="100" column="76" selection-start-line="100" selection-start-column="76" selection-end-line="100" selection-end-column="76" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="28" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml/retrain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="180" column="45" lean-forward="true" selection-start-line="180" selection-start-column="45" selection-end-line="180" selection-end-column="45" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
