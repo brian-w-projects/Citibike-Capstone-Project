@@ -129,7 +129,7 @@ if __name__ == '__main__':
         print('MSE: {}'.format(mean_squared_error(predictions, data.iloc[sample+30*24:, 10])))
     else:
         print('Predicting on: {}'.format(results.file))
-        predictions = predict(pd.read_csv(results.file))
+        predictions = predict(pd.read_csv(os.path.join('.', 'data', results.file)))
         np.savetxt('predictions.csv', predictions, delimiter=',')
         print('Complete')
 

@@ -3,7 +3,9 @@ Capstone for CUNY SPS Data Science Masters
 
 ## Mission Statement
 
-In this capstone project for my masters in Data Science, I will be processing data regarding New York City's Citi Bike bike share program. I will utilize historic data to make predictions on the number of future riders as well as make a number of business intelligence decisions based on my discoveries. Ultimately, I will create a live dashboard displaying all of this information
+In this capstone project for my masters in Data Science, I will be processing data regarding New York City's Citi Bike bike share program. I will utilize historic data to make predictions on the number of future riders as well as make a number of business intelligence decisions based on my discoveries. Ultimately, I will create a live dashboard displaying all of this information.
+
+Please see the accompanying paper for full details.
 
 ### Phase 1 - Model Creation
 
@@ -47,5 +49,4 @@ I created an Apache Beam pipeline to run on GCP Dataflow to ingest the simulated
 
 #### Step 3 - Dashboard 
 
-
-
+A dashboard was created with Google's Cloud Studio to display near real time bike ride rate next to my predictions. In addition, date ranges can be selected in order to see whichever past predictions the user likes.
