@@ -28,7 +28,7 @@
       <file leaf-file-name="predict.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ml/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="315">
               <caret line="126" selection-start-line="126" selection-end-line="126" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -109,11 +109,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-2560" />
-    <option name="y" value="285" />
-    <option name="width" value="2580" />
-    <option name="height" value="1410" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2569" />
+    <option name="y" value="-9" />
+    <option name="width" value="2578" />
+    <option name="height" value="1408" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -325,7 +325,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2567" y="-7" width="2062" height="1126" extended-state="7" />
+    <frame x="-2567" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3299075" />
@@ -335,7 +335,7 @@
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.3299075" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.35149023" />
       <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32682425" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13836163" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13986014" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="SciView" order="0" />
@@ -659,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ml/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="315">
           <caret line="126" selection-start-line="126" selection-end-line="126" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
