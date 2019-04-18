@@ -1,11 +1,30 @@
-# citibike-dashboard
-Capstone for CUNY SPS Data Science Masters
+# Citi Bike Dashboard Capstone Project
+
+![example](images/rides_per_hour.png)
+
+### Presentation Can Be Found [here](link)
 
 ## Mission Statement
 
-In this capstone project for my masters in Data Science, I will be processing data regarding New York City's Citi Bike bike share program. I will utilize historic data to make predictions on the number of future riders as well as make a number of business intelligence decisions based on my discoveries. Ultimately, I will create a live dashboard displaying all of this information.
+In this capstone project for my masters in Data Science, I will be processing data regarding New York City's Citi Bike bike share program. I will utilize historic data to make predictions on the number of future riders as well as make a number of business intelligence decisions based on my discoveries. Ultimately, I will create a live dashboard displaying all of this information. I will also create a comprehensive analysis of the available data, identifying important and actional insights.
 
 Please see the accompanying paper for full details.
+
+## Select Images
+
+<div class='clearfix'>
+<img src='images/year.png' width=48% class='display: inline'/>
+<img src='images/hour.png' width=48% class='display: inline'/>
+</div>
+
+### Critical Pathways
+
+<div class='clearfix'>
+<img src='images/core1.png' width=40% class='display:inline;margin:5px'/>
+<img src='images/core2.png' width=55% class='display:inline;margin:5px'/>
+</div>
+
+## Details:
 
 ### Phase 1 - Model Creation
 
