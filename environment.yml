@@ -160,7 +160,6 @@ dependencies:
   - tornado=5.1.1=py36hfa6e2cd_0
   - traitlets=4.3.2=py36h096827d_0
   - tzlocal=1.5.1=py36_0
-  - urllib3=1.24.1=py36_0
   - vc=14.1=h0510ff6_4
   - vs2015_runtime=14.15.26706=h3a45250_0
   - wcwidth=0.1.7=py36h3d5aa90_0
@@ -181,6 +180,7 @@ dependencies:
     - python-holidayapi==1.0.0
     - pyyaml==5.1
     - rpy2==2.9.4
+    - urllib3==1.25
     - xgboost==0.81
 prefix: C:\Users\Brian\Anaconda3\envs\citibike-dashboard
 
