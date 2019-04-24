@@ -15,7 +15,7 @@
     <SUITE FILE_PATH="coverage/citibike_dashboard$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1552837814891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_stations_into_mysql.coverage" NAME="load_stations_into_mysql Coverage Results" MODIFIED="1549568383472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$read_test.coverage" NAME="read_test Coverage Results" MODIFIED="1551305947539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcp/ingest" />
-    <SUITE FILE_PATH="coverage/citibike_dashboard$citibike_dashboard.coverage" NAME="citibike-dashboard Coverage Results" MODIFIED="1554757811535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/citibike_dashboard$citibike_dashboard.coverage" NAME="citibike-dashboard Coverage Results" MODIFIED="1556073893886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_into_mysql.coverage" NAME="load_into_mysql Coverage Results" MODIFIED="1549567659389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$ingest_to_pubsub.coverage" NAME="ingest_to_pubsub Coverage Results" MODIFIED="1551285764715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gcp" />
     <SUITE FILE_PATH="coverage/citibike_dashboard$load_rides_into_mysql.coverage" NAME="load_rides_into_mysql Coverage Results" MODIFIED="1549572161824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrape" />
@@ -109,17 +109,18 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2570" />
     <option name="y" value="-10" />
-    <option name="width" value="2579" />
-    <option name="height" value="1409" />
+    <option name="width" value="2580" />
+    <option name="height" value="1410" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,7 +137,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,7 +326,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2567" y="-7" width="2062" height="1126" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3299075" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -335,7 +334,7 @@
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.3299075" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.35149023" />
       <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32682425" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13986014" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14285715" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="SciView" order="0" />
